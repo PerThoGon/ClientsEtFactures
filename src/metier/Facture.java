@@ -10,7 +10,7 @@ public class Facture
 	 */
 	private Int montantfacture;
 	
-	public Facture (int montant)
+	public Facture Facture(int montant)
 	{
 		this.montantfacture = montant;
 	}
