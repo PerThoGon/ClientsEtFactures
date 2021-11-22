@@ -8,10 +8,11 @@ public class Facture
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.
 	 */
+	private Int montantfacture;
 	
 	public Facture (int montant)
 	{
-		this.montant = montant;
+		this.montantfacture = montant;
 	}
 	
 	public Client getClient()

@@ -10,7 +10,7 @@ public class Client
 	 * @param nom le nom du client. 
 	 */
 	private String nom;
-	private Int montant;
+	
 	
 	public Client(String nom)
 	{
