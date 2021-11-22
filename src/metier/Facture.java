@@ -17,7 +17,7 @@ public class Facture
 	
 	public Client getClient()
 	{
-		return Client;
+		return null;
 	}
 
 	/**
@@ -27,7 +27,7 @@ public class Facture
 	
 	public int getMontant()
 	{
-		return Montant;
+		return 0;
 	}
 
 	/**
@@ -47,7 +47,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return Date;
+		return null;
 	}
 
 	/**
