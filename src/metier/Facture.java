@@ -8,7 +8,7 @@ public class Facture
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.
 	 */
-	private Int montantfacture;
+	private Int montantfacture = 0;
 	
 	public Facture Facture(int montant)
 	{
