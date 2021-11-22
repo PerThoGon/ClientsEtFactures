@@ -9,9 +9,14 @@ public class Facture
 	 * @return le client.
 	 */
 	
+	public Facture (int montant)
+	{
+		this.montant = montant;
+	}
+	
 	public Client getClient()
 	{
-		return null;
+		return Client;
 	}
 
 	/**
@@ -21,7 +26,7 @@ public class Facture
 	
 	public int getMontant()
 	{
-		return 0;
+		return Montant;
 	}
 
 	/**
@@ -41,7 +46,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return null;
+		return Date;
 	}
 
 	/**

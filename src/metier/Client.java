@@ -9,7 +9,8 @@ public class Client
 	 * Crée un client.
 	 * @param nom le nom du client. 
 	 */
-	private String nom; 
+	private String nom;
+	private Int montant;
 	
 	public Client(String nom)
 	{
@@ -41,10 +42,12 @@ public class Client
 	 * @param montant Le montant de la facture.
 	 * @return la facture créée.
 	 */
+
+	
 	
 	public Facture createFacture(int montant)
 	{
-		return null;
+		;
 	}
 	
 	/**
