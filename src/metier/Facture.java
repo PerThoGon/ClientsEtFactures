@@ -10,6 +10,7 @@ public class Facture
 	 */
 	
 	private int montant;
+	private int date;
 	
 	public Facture(int montant)
 	{
@@ -48,7 +49,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return null;
+		return date;
 	}
 
 	/**

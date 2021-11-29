@@ -58,7 +58,9 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		return null;
+		arraylist<String> Facture = new arraylist<String>();
+		
+			Facture.add(Facture);
 	}
 	
 	/**
@@ -90,7 +92,8 @@ public class Client
 
 	public List<Facture> facturesReglees()
 	{
-		return null;
+		arraylist<String> Facture = new arraylist<String>();
+		Facture.add();
 	}
 	
 
