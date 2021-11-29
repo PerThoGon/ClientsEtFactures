@@ -12,7 +12,8 @@ public class Facture
 	 */
 	
 	private int montant;
-	private int date;
+	private LocalDate datefacture = LocalDate.now();
+	private boolean estReglee
 	
 	
 	public Facture(int montant)
@@ -42,7 +43,7 @@ public class Facture
 	
 	public boolean estReglee()
 	{
-		return true;
+		return estReglee;
 	}
 
 	/**
@@ -52,7 +53,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return LocalDate.now();
+		return datefacture;
 	}
 
 	/**
