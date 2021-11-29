@@ -61,7 +61,6 @@ public class Client
 	{
 		ArrayList<String> Facture = new ArrayList<String>();
 		Facture.add(nom);
-		return null;
 	}
 	
 	/**
