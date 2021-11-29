@@ -49,7 +49,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return date;
+		return LocalDate.now();
 	}
 
 	/**
