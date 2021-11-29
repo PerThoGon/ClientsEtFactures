@@ -1,6 +1,8 @@
 package metier;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Facture
 {
@@ -11,6 +13,7 @@ public class Facture
 	
 	private int montant;
 	private int date;
+	private List<Facture> facture = new ArrayList<>();
 	
 	public Facture(int montant)
 	{
