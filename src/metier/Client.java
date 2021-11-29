@@ -12,7 +12,7 @@ public class Client
 	
 	private String nom;
 	private ArrayList<Facture> factures = new ArrayList<>();
-	private static List<Client> clients = new ArrayList<>();
+	//private static List<Client> clients = new ArrayList<>();
 	
 	
 	
@@ -104,12 +104,7 @@ public class Client
 	 */
 	public static List<Client> tous()
 	{
-		List<Client> lesClients = new ArrayList<>();
-		for(int i=0;i<clients.size(i);i++)
-		{
-			lesClients.add(client.get(i));
-		}
-		return lesClients;
+		return null;
 	}
 	
 	/**
