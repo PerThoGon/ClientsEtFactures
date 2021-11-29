@@ -59,6 +59,8 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
+		ArrayList<String> Facture = new ArrayList<String>();
+		Facture.add(nom);
 		return null;
 	}
 	
