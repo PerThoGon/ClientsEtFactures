@@ -11,7 +11,7 @@ public class Client
 	 */
 	
 	private String nom;
-	
+	private static List<Client> clients = new ArrayList<>();
 	
 	
 	
@@ -104,7 +104,12 @@ public class Client
 	 */
 	public static List<Client> tous()
 	{
-		return null;
+		List<Client> lesClients = new ArrayList<>();
+		for(int i=0;i<clients.get(i));
+		{
+			lesClients.add(client.get(i));
+		}
+		return lesClients;
 	}
 	
 	/**
