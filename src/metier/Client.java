@@ -11,6 +11,7 @@ public class Client
 	 */
 	
 	private String nom;
+	private List<Facture> facture = new ArrayList<>();
 	private static List<Client> clients = new ArrayList<>();
 	
 	

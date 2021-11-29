@@ -13,7 +13,7 @@ public class Facture
 	
 	private int montant;
 	private int date;
-	private List<Facture> facture = new ArrayList<>();
+	
 	
 	public Facture(int montant)
 	{
