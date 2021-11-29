@@ -105,7 +105,7 @@ public class Client
 	public static List<Client> tous()
 	{
 		List<Client> lesClients = new ArrayList<>();
-		for(int i=0;i<clients.get(i));
+		for(int i=0;i<clients.get(i))
 		{
 			lesClients.add(client.get(i));
 		}
