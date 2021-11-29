@@ -1,8 +1,8 @@
 package metier;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.ArrayList;
+//import java.util.List;
 
 public class Facture
 {
@@ -20,6 +20,7 @@ public class Facture
 	public Facture(int montant, Client client)
 	{
 		this.montant = montant;
+		this.client = client;
 	} 
 	
 	public Client getClient()
