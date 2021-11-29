@@ -11,6 +11,7 @@ public class Facture
 	 * @return le client.
 	 */
 	
+	private Client client;
 	private int montant;
 	private LocalDate datefacture = LocalDate.now();
 	private boolean estReglee;
@@ -23,7 +24,7 @@ public class Facture
 	
 	public Client getClient()
 	{
-		return null;
+		return client;
 	}
 
 	/**
