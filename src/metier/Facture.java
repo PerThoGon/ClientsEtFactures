@@ -13,7 +13,7 @@ public class Facture
 	
 	private int montant;
 	private LocalDate datefacture = LocalDate.now();
-	private boolean estReglee
+	private boolean estReglee;
 	
 	
 	public Facture(int montant)
