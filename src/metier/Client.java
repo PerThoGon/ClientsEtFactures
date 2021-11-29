@@ -11,14 +11,17 @@ public class Client
 	 */
 	
 	private String nom;
+	//private boolean reglee;
+	
 	private ArrayList<Facture> factures = new ArrayList<>();
-	//private static List<Client> clients = new ArrayList<>();
+	private static ArrayList<Client> clients = new ArrayList<>();
 	
 	
 	
 	public Client(String nom)
 	{
 		this.nom = nom;
+		clients.add(this);
 	}
 
 	/**
@@ -104,7 +107,7 @@ public class Client
 	 */
 	public static List<Client> tous()
 	{
-		return null;
+		return clients;
 	}
 	
 	/**
@@ -113,5 +116,6 @@ public class Client
 	
 	public void delete()
 	{
+		clients.remove(this);
 	}
 }
