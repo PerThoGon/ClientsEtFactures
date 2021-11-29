@@ -62,8 +62,7 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		ArrayList<String> Facture = new ArrayList<String>();
-		Facture.add(nom);
+		return new ArrayList<String>(factures);
 	}
 	
 	/**
@@ -106,7 +105,7 @@ public class Client
 	public static List<Client> tous()
 	{
 		List<Client> lesClients = new ArrayList<>();
-		for(int i=0;i<=clients.get(i);i++)
+		for(int i=0;i<clients.size(i);i++)
 		{
 			lesClients.add(client.get(i));
 		}
