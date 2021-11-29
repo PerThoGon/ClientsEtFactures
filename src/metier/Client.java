@@ -63,7 +63,7 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		return new ArrayList<>(factures);
+		return new ArrayList<Facture>(factures);
 	}
 	
 	/**
