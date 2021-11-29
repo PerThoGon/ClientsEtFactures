@@ -16,7 +16,7 @@ public class Facture
 	private boolean estReglee;
 	
 	
-	public Facture(int montant)
+	public Facture(int montant, Client client)
 	{
 		this.montant = montant;
 	} 
